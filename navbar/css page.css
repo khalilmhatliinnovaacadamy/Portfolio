@@ -1,0 +1,75 @@
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 3px 3px black;
+    font-family: fantasy;
+    font-size: 60px;
+}
+body{
+    background-image: url(image.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 1px;
+
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #04aa6d;
+}
+img{
+    width: 360px;
+    margin: -10px;
+}
+.moviename{
+    width: 360px;
+    margin: -10px;
+}
+div.posters {
+width: 25.50%;
+background-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 25px;
+}
+div.container {
+    text-align: center;
+    padding: 10px 10px;
+    margin: -20px;
+    font-size: 25px;
+}
+.flex-container{
+    display: flex;
+    padding-left: 120px;
+}
+.flex-container > div {
+    margin: 12px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    color: whitesmoke;
+    text-shadow: 8px 8px black;
+}

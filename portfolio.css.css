@@ -1,0 +1,180 @@
+body{
+    background-image: url(web.jpg);
+    background-position: fixed;
+    background-attachment: none;
+    background-size: cover;
+}
+.otherbackground{
+    background-color: whitesmoke;
+    opacity: 0.94;
+    border-radius: 90px;
+}
+.navbar{
+    
+   border-radius: 50px;
+   
+}
+.logo{
+    width: 80px;
+    margin: -10px;
+    margin-left: 35px;
+
+}
+ul{ 
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    color: hotpink;
+    margin: 0px;
+    padding: 15px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: fantasy;
+    color: rgb(255, 71, 71);
+    text-shadow: 3px 3px black;
+}
+li{
+    margin: 10px;
+}
+.part2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hey{
+    width: 113%;
+    border-radius: 50%;
+    margin: -40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+p{
+    font-family: monospace;
+    font-size: 30px;
+}
+.title{
+    font-size: 85px;
+    text-transform: capitalize;
+    text-shadow: 2px 2px blue;
+    margin: 0px;
+}
+#all{
+    margin-top: 5rem;
+}
+.examples{
+    margin-top: -8rem;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-shadow: 1.5px 1.5px blue;
+}
+h5{
+    font-size: 25px;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.web1{
+    margin-top: -2rem;
+}
+.web2{
+    margin-top: -1.5rem;
+}
+a{
+    font-size: 35px;
+}
+.logos{
+    width: 15%;
+    margin-top: -1.2rem;
+    padding-left: 36.5rem;
+    
+}
+.lastpart{
+    margin-top: -3rem;
+}
+.otherprogrammes{
+    width: 28%;
+    padding-left: 32rem;
+    margin-top: -1.2rem;
+}
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    text-align: center;
+    font-size: 29px;
+    padding: 21px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+content: '\00bb';
+position: absolute;
+opacity: 0;
+top: 0;
+right: -20px;
+transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 25px;
+}
+.button:hover span::after {
+    opacity: 1;
+    right: 0;
+}
+.clickhere{
+    padding-left: 32rem;
+    margin-top: 45px;
+}
+.clickhere2{
+    padding-left: 15rem;
+    margin-top: -5.4rem;
+}
+.change{
+    font-size: 22.8px;
+}
+.contact{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 6px;
+    text-transform: capitalize;
+    text-shadow: 1.5px 1.5px blue;
+    border-radius: 25px;
+    border: 3.5px solid black;
+    padding: 15px;
+    width: 500px;
+    height: 45px;
+   
+}
+.face{
+    width: 50px;
+    margin-left: 65px;
+}
+.insta{
+    width: 53px;
+    margin-left: 15px;
+}
+.lin{
+    width: 56px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+.endofthepage{
+    margin: 100px;
+    
+}
